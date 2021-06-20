@@ -1,0 +1,12 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image:url(../office.png);
+	background-size:cover;
+	background-position:top center;
+	background-repeat:no-repeat;
+}

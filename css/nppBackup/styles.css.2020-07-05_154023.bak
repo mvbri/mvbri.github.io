@@ -1,0 +1,35 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+html, body{
+	width:100%;
+	height:100%;
+	background-image:url(../office.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:scroll;
+	padding-bottom:80px;
+	/* background-position: 500px 200px; */
+}
+
+.nav_p{
+	position: relative;
+    top: 55px;
+    left: 31px;
+    width: 94%;
+	height:172px;
+	background-color:rgba(0,255,0,.5);
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	border-top-radius:15px;
+}
+
+.nav_p li{
+	list-style:none;
+	margin-left:78px;
+}
