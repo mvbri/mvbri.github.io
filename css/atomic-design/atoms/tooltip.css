@@ -1,0 +1,44 @@
+/*
+ * Tooltip
+ * @author mfyance
+ */
+
+tooltip{
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 60px;
+    background: var(--color-secondary);
+    padding: 10px;
+    font: 10px var(--font-primary);
+    word-break: normal;
+    white-space: nowrap;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #d4d4d478;
+    color: var(--color-primary);
+    letter-spacing: 1px;
+    opacity: 0;
+    transform: translateX(-10px) scale(0);
+    transition: all .3s ease;
+    transform-origin: center left;
+}
+
+.tooltip:hover tooltip{
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+}
+
+
+tooltip:after{
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 7px solid var(--color-secondary);
+    clear: both;
+}

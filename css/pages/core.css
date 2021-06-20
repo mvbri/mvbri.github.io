@@ -1,0 +1,34 @@
+/*
+ * Core Proyect
+ * @author mfyance
+ */
+
+@charset "utf-8";
+@import '../design-system/__design-system.css';
+@import 'home.css';
+@import 'conocenos.css';
+@import 'blog.css';
+
+.site{
+
+}
+.site-header {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 45% 55%;
+    position: relative;
+    gap: 1em;
+}
+.site-main{
+	width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.site-footer{
+    
+}
+
+
+
