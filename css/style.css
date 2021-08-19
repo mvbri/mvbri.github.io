@@ -41,7 +41,7 @@ body {
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -86,7 +86,68 @@ p {
     margin: 1rem 0;
 }
 
+ul {
+    list-style: none;
+}
+
 /* components */
+
+/* Carousel */
+
+.carousel {
+    margin: 2rem auto;
+    padding: 2rem 0;
+    max-width: 800px;
+    text-align: center;
+    background: var(--carousel-bg-color);
+    overflow: hidden;
+}
+
+.carousel .slides {
+    /*100% por cada slide*/
+    width: 400%;
+    display: flex;
+    transition: transform .5s ease-in-out;
+}
+
+#slide-1:checked ~ .slides-nav #dot-1,
+#slide-2:checked ~ .slides-nav #dot-2,
+#slide-3:checked ~ .slides-nav #dot-3,
+#slide-4:checked ~ .slides-nav #dot-4 {
+    background: var(--gray-dark-color);
+}
+
+.carousel input {
+    display: none;
+}
+
+.carousel label {
+    border: medium solid var(--gray-dark-color);
+    border-radius: 50%;
+    margin: 0 .25rem;
+    display: inline-block;
+    width: .75rem;
+    height: .75rem;
+    cursor: pointer;
+}
+
+#slide-1:checked ~ .slides {
+    transform: translateX(0%);
+}
+
+#slide-2:checked ~ .slides {
+    transform: translateX(-25%);
+}
+
+#slide-3:checked ~ .slides {
+    transform: translateX(-50%);
+}
+
+#slide-4:checked ~ .slides {
+    transform: translateX(-75%);
+}
+
+
 
 /* Hero image */
 
@@ -258,6 +319,12 @@ progress::-moz-progress-value {
 
 /* utilities */
 
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
 .bg-gray-light {
     background: var(--gray-light-color);
 }
@@ -303,6 +370,10 @@ progress::-moz-progress-value {
     width: 250px;
     text-align: center;
     color: var(--title-color);
+}
+
+.text-first-color {
+    color: var(--first-color);
 }
 
 .text-center {
