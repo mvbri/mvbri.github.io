@@ -1,7 +1,0 @@
-<svg width="51" height="20" viewBox="0 0 51 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M38 10L-124 10" stroke="#FFDD00" stroke-width="2" stroke-linecap="round"/>
-<path d="M45 0H33L27 10L33 20H45L51 10L45 0Z" fill="#FFDD00"/>
-<g style="mix-blend-mode:multiply">
-<path d="M45 0H39V20H45L51 10L45 0Z" fill="#FFDD00" fill-opacity="0.4"/>
-</g>
-</svg>
