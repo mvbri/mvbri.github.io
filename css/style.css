@@ -529,6 +529,14 @@ progress::-moz-progress-value {
     margin-top: -1rem;
 }
 
+.footer {
+    margin-bottom: var(--header-height);
+    padding: .5rem;
+    text-align: center;
+    color: var(--white-color);
+    background: var(--third-color);
+}
+
 .header {
     position: fixed;
     left: 0;
@@ -695,6 +703,10 @@ progress::-moz-progress-value {
 
     .contact-cards {
         grid-template-columns: repeat(4, 24%);
+    }
+
+    .footer {
+        margin-bottom: 0;
     }
 
     .header {
