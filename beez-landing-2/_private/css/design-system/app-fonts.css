@@ -1,0 +1,33 @@
+/*
+ * Fonts
+ * @author mfyance
+ */
+
+@font-face {
+    font-family: 'brown-bold';
+    src: url('../../fonts/brown-bold.woff2') format('woff2'),
+         url('../../fonts/brown-bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'brown-light';
+    src: url('../../fonts/brown-light.woff2') format('woff2'),
+         url('../../fonts/brown-light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mont';
+    src: url(../../fonts/Mont-SemiBold.otf) format('otf'),
+         url(../../fonts/mont-semibold-webfont.woff) format('woff'),
+         url(../../fonts/mont-semibold-webfont.woff) format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont Heavy';
+    src: url(../../fonts/Mont-Heavy.ttf) format('ttf'),
+         url(../../fonts/mont-heavy-webfont.woff) format('woff'),
+         url(../../fonts/mont-heavy-webfont.woff2) format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}

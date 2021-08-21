@@ -1,0 +1,75 @@
+/*
+ * SVG
+ * @author mfyance
+ */
+
+[class*='svg-size']{
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+[svg-size = 15]{
+    width: 15px;
+    height: 15px;
+}
+[svg-size = 18]{
+    width: 18px;
+    height: 18px;
+}
+[svg-size = 20]{
+    width: 20px;
+    height: 20px;
+}
+[svg-size = 23]{
+    width: 23px;
+    height: 23px;
+}
+[svg-size = 25]{
+    width: 25px;
+    height: 25px;
+}
+[svg-size = 30]{
+    width: 30px;
+    height: 30px;
+}
+[svg-size = 40]{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+.svg-size-15{
+    width: 15px;
+    height: 15px;
+}
+.svg-size-18{
+    width: 18px;
+    height: 18px;
+}
+
+.svg-size-20{
+    width: 20px;
+    height: 20px;
+}
+.svg-size-23{
+    width: 23px;
+    height: 23px;
+}
+.svg-size-25{
+    width: 25px;
+    height: 25px;
+}
+.svg-size-30{
+    width: 30px;
+    height: 30px;
+}
+.svg-size-40{
+    width: 40px;
+    height: 40px;
+}

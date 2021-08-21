@@ -1,0 +1,22 @@
+{
+  "name": "beez-website",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "start": "sass --watch _private/sass/site.scss  _private/css/site.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mvbri10@bitbucket.org/beezpe/beez-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/beezpe/beez-website#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "sass": "^1.29.0"
+  }
+}

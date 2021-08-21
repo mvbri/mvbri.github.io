@@ -1,0 +1,29 @@
+/*
+ * Core Proyect
+ * @author mfyance
+ */
+
+@charset "utf-8";
+@import '../design-system/__design-system.css';
+
+.site{
+	
+}
+
+.contenedor-principal {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.site-header{
+	padding: 20px 0
+}
+.site-main{
+	
+}
+.site-footer{
+	
+}
+
+
+

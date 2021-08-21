@@ -1,0 +1,22 @@
+/*
+ * Atomic Design
+ * @author mfyance
+ */
+@charset "utf-8";
+
+@import 'atoms/button.css';
+@import 'atoms/checkbox.css';
+@import 'atoms/color.css';
+@import 'atoms/svg.css';
+@import 'atoms/radio.css';
+@import 'atoms/font.css';
+@import 'atoms/select.css';
+@import 'atoms/tooltip.css';
+@import 'molecules/burger.css';
+@import 'molecules/form.css';
+@import 'molecules/icons.css';
+@import 'molecules/modal.css';
+@import 'molecules/search.css';
+@import 'molecules/table.css';
+@import 'molecules/tabs.css';
+@import 'organism/menu.css';
