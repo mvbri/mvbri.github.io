@@ -1,0 +1,29 @@
+.card{
+  padding: 2rem;
+  &--reverse{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  &__icon{
+    position: absolute;
+    left: -10px;
+    top: 1.7rem;
+  }
+  &__thumbnail{
+    background: url("../../_private/img/ilustrations/hexagono.svg") no-repeat;
+    background-size: contain;
+    margin: 1rem 0;
+  }
+  &__body{
+    &--white{
+      box-shadow: 0px 14px 34px rgba(0, 0, 0, 0.03);
+    }
+    border-radius: 10px;
+    height: 100%;
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+  &__title{
+    font-weight: $font-weight-bold;
+  }
+}
