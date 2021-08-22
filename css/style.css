@@ -626,6 +626,11 @@ progress::-moz-progress-value {
     color: var(--title-color);
 }
 
+.portfolio-modal > img {
+    width: 50%;
+    height: auto;
+}
+
 .portfolio-details {
     display: grid;
     grid-template-columns: 40% 60%;
