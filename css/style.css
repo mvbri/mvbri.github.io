@@ -114,6 +114,7 @@ ul {
     text-align: center;
     background: var(--carousel-bg-color);
     overflow-x: hidden;
+    display: none;
 }
 
 .carousel .slides {
