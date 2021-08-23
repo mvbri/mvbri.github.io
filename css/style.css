@@ -566,6 +566,7 @@ progress::-moz-progress-value {
     width: 100%;
     margin: 0 auto;
     display: block;
+    max-width: 400px;
 }
 
 .service-card {
@@ -718,7 +719,7 @@ progress::-moz-progress-value {
     .header {
         position: sticky;
         top: 0;
-        padding: 0.5rem;
+        padding: 0.5rem 1rem;
         height: calc(var(--header-height) - .5rem);
     }
 
@@ -737,4 +738,8 @@ progress::-moz-progress-value {
         grid-column: span 3;
     }
 
+}
+
+.testimonials {
+    display: none;
 }
