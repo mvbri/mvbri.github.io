@@ -435,7 +435,7 @@ progress::-moz-progress-value {
 
 .btn {
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: .8rem;
     display: inline-block;
     width: 200px;
     font-weight: bold;
