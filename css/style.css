@@ -414,6 +414,7 @@ progress::-moz-progress-value {
     border-bottom: 1px solid #d90062;
     padding: .3rem;
     color: #14192d;
+    font-weight: 700;
 }
 
 /* utilities */
@@ -668,7 +669,7 @@ progress::-moz-progress-value {
     .contact-cards {
         display: grid;
         grid-template-columns: repeat(2, 48%);
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .portfolio > .container {
@@ -712,7 +713,7 @@ progress::-moz-progress-value {
     }
 
     .contact-cards {
-        grid-template-columns: repeat(4, 24%);
+        grid-template-columns: repeat(3, 30%);
     }
 
     .footer {
