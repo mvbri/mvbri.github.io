@@ -411,6 +411,9 @@ progress::-moz-progress-value {
     display: flex;
     justify-content: space-between;
     font-size: 0.85rem;
+    border-bottom: 1px solid #d90062;
+    padding: .3rem;
+    color: #14192d;
 }
 
 /* utilities */
@@ -438,6 +441,7 @@ progress::-moz-progress-value {
     text-align: center;
     color: var(--white-color);
     background: var(--first-color);
+    letter-spacing: 1px;
 }
 
 .container {
@@ -487,7 +491,6 @@ progress::-moz-progress-value {
 @media screen and (min-width: 1024px) {
     .full-lg-screen {
         width: 100%;
-        min-height: 100vh;
     }
 
     .text-lg-center {
