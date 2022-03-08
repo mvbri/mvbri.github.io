@@ -23,90 +23,31 @@
 
 
 // ((d) => {
-    // let $linkActived = d.querySelectorAll('.menu a');
 
-    // window.addEventListener('scroll', () => {
-            // let scrollTop = document.documentElement.scrollTop;
-            // let scrollHeight = document.documentElement.scrollHeight;
-            // let clientHeight = document.documentElement.clientHeight;
-            
-            // let windowHeight = scrollHeight - clientHeight;
-            // let porcentaje = scrollTop / windowHeight * 100;
-            
-            // let $homeLink = d.querySelector('.home-link');
-            // let $acercaLink = d.querySelector('.acerca-link');
-            // let $servicesLink = d.querySelector('.services-link');
-            // let $portfolioLink = d.querySelector('.portfolio-link');
-            // let $contanctLink = d.querySelector('.contanct-link');
-            
-            
-            // if(porcentaje >= 0 && porcentaje < 20) {
-                // for(i = 0; i < $linkActived.length; i++) {
-                    // $linkActived[i].classList.remove('actived');
-                // }
+// // switch(true) {
+// //     case !location.hash:
+// //         location.hash = "#inicio";
+// //         let hashDefault = d.querySelector('.hash-default');
+// //         hashDefault.classList.add('actived');
+// // }
 
-                // $homeLink.classList.add('actived');
-
-                // location.hash = '#inicio';
-            // } else if (porcentaje >= 20 && porcentaje < 40) {
-                // for(i = 0; i < $linkActived.length; i++) {
-                    // $linkActived[i].classList.remove('actived');
-                // }
-
-                // $acercaLink.classList.add('actived');
-
-                // location.hash = '#acerca';
-            // } else if(porcentaje >= 40 && porcentaje < 60) {
-                // for(i = 0; i < $linkActived.length; i++) {
-                    // $linkActived[i].classList.remove('actived');
-                // }
-
-                // $servicesLink.classList.add('actived');
-
-                // location.hash = '#servicios';
-            // } else if (porcentaje >= 60 && porcentaje < 80) {
-                // for(i = 0; i < $linkActived.length; i++) {
-                    // $linkActived[i].classList.remove('actived');
-                // }
-
-                // $portfolioLink.classList.add('actived');
-
-                // location.hash = '#portafolio';
-            // } else if(porcentaje >= 80 && porcentaje < 100) {
-                // for(i = 0; i < $linkActived.length; i++) {
-                    // $linkActived[i].classList.remove('actived');
-                // }
-
-                // $contanctLink.classList.add('actived');
-
-                // location.hash = '#contacto';
-            // }
-    // });
-
-
-    // if(!location.hash) {
-        // location.hash = "#home";
-        // let hashDefault = document.querySelector('.hash-default');
-        // hashDefault.classList.add('actived');
-    // }
-
-    // for(i = 0; i < $linkActived.length; i++) {
-
-        // $linkActived[i].addEventListener('click', (e) => {
-
-            // location.hash = e.target.getAttribute('href');
-
-            // if(location.hash == e.target.getAttribute('href')) {
-                // for(i = 0; i < $linkActived.length; i++) {
-                    // $linkActived[i].classList.remove('actived');
-                // }
-                
-                // e.preventDefault();
-                // e.target.classList.add('actived');
-            // } 
-        // });
-    // }
-
+// if(!location.hash) {
+//      let hashDefault = document.querySelector('.hash-default');
+//      hashDefault.classList.add('actived');
+// } else if (location.hash === "#inicio") {
+//     let hashInicio = document.querySelector('.home-link');
+//     let hashlinks = document.querySelectorAll('.link');
+//     // hashlinks.map(link => {
+//     //     link.classList.remove('actived');
+//     // })
+//     hashInicio.classList.add('actived');
+// } else if (location.hash === "#acerca") {
+//     let hashAcerca = document.querySelector('.acerca-link');
+//     // hashlinks.map(link => {
+//     //     link.classList.remove('actived');
+//     // })
+//     hashAcerca.classList.add('actived');
+// }
 
 // })(document);
 
