@@ -21,7 +21,7 @@
     --header-height: 75px;
     --s-size: 2rem;
     --m-size: 4rem;
-    --lg-size: 5rem;
+    --lg-size: 6rem;
     --xl-size: 8rem
 }
 
@@ -92,7 +92,6 @@ p {
 ul {
     list-style: none;
 }
-
 
 /* components */
 
@@ -355,10 +354,6 @@ ul {
         pointer-events: auto;
         border-bottom: none;
     }
-
-    .hero-img-title {
-        font-size: var(--lg-size);
-    }
 }
 
 /* Modal */
@@ -486,6 +481,10 @@ progress::-moz-progress-value {
     display: none;
 }
 
+.section {
+    padding: 2rem 1rem;
+}
+
 .section-title {
     border-top: thin solid var(--first-color);
     border-bottom: thin solid var(--first-color);
@@ -513,11 +512,6 @@ progress::-moz-progress-value {
 }
 
 @media screen and (min-width: 1024px) {
-
-    :root {
-        --max-width: 1300px;
-    }
-    
     .full-lg-screen {
         width: 100%;
     }
@@ -591,10 +585,6 @@ progress::-moz-progress-value {
 .logo a {
     color: var(--first-color);
     border-bottom: 1px solid;
-    font-size: 2rem;
-}
-
-.btn {
     font-size: 1.5rem;
 }
 

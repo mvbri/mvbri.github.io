@@ -21,7 +21,7 @@
     --header-height: 75px;
     --s-size: 2rem;
     --m-size: 4rem;
-    --lg-size: 5rem;
+    --lg-size: 6rem;
     --xl-size: 8rem
 }
 
@@ -357,7 +357,7 @@ ul {
     }
 
     .hero-img-title {
-        font-size: var(--lg-size);
+        font-size: var(--m-size);
     }
 }
 
@@ -592,10 +592,6 @@ progress::-moz-progress-value {
     color: var(--first-color);
     border-bottom: 1px solid;
     font-size: 2rem;
-}
-
-.btn {
-    font-size: 1.5rem;
 }
 
 .portfolio-card {
