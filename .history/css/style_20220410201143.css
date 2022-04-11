@@ -93,14 +93,6 @@ ul {
     list-style: none;
 }
 
-.text-center {
-    text-align: center;
-}
-
-section[id] {
-    scroll-margin-top: 3em;
-}
-
 
 /* components */
 
@@ -325,11 +317,11 @@ section[id] {
 }
 
 .menu a:hover {
-    color: var(--gray-light-color);
+    color: var(--white-color);
     background: var(--first-color);
 }
 
-.menu a.active {
+.menu .actived {
     color: var(--white-color);
 }
 
@@ -412,6 +404,10 @@ section[id] {
 
 .progress {
     margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
     text-align: center;
 }
 
@@ -433,10 +429,12 @@ progress::-moz-progress-value {
 
 
 .progress > p {
+    display: flex;
+    justify-content: space-between;
     font-size: 1rem;
     border-bottom: 1px solid #d90062;
+    padding: .3rem;
     color: #14192d;
-    padding: 1em;
 }
 
 /* utilities */
@@ -478,7 +476,6 @@ progress::-moz-progress-value {
     margin-right: auto;
     max-width: var(--max-width);
     padding-top: 3rem;
-    padding: 10px;
 }
 
 .gray-scale {
@@ -534,7 +531,6 @@ progress::-moz-progress-value {
     .text-lg-right {
         text-align: right;
     }
-
 }
 
 /* Site styles */
@@ -594,6 +590,10 @@ progress::-moz-progress-value {
     color: var(--first-color);
     border-bottom: 1px solid;
     font-size: 2rem;
+}
+
+.btn {
+    font-size: 1.5rem;
 }
 
 .portfolio-card {

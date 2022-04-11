@@ -97,10 +97,6 @@ ul {
     text-align: center;
 }
 
-section[id] {
-    scroll-margin-top: 3em;
-}
-
 
 /* components */
 
@@ -329,7 +325,7 @@ section[id] {
     background: var(--first-color);
 }
 
-.menu a.active {
+.menu .active {
     color: var(--white-color);
 }
 

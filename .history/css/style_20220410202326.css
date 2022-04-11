@@ -97,11 +97,6 @@ ul {
     text-align: center;
 }
 
-section[id] {
-    scroll-margin-top: 3em;
-}
-
-
 /* components */
 
 /* Carousel */
@@ -325,11 +320,11 @@ section[id] {
 }
 
 .menu a:hover {
-    color: var(--gray-light-color);
+    color: var(--white-color);
     background: var(--first-color);
 }
 
-.menu a.active {
+.menu .actived {
     color: var(--white-color);
 }
 
@@ -478,7 +473,6 @@ progress::-moz-progress-value {
     margin-right: auto;
     max-width: var(--max-width);
     padding-top: 3rem;
-    padding: 10px;
 }
 
 .gray-scale {
@@ -594,6 +588,10 @@ progress::-moz-progress-value {
     color: var(--first-color);
     border-bottom: 1px solid;
     font-size: 2rem;
+}
+
+.btn {
+    font-size: 1.5rem;
 }
 
 .portfolio-card {

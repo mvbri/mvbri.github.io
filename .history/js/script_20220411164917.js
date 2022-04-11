@@ -60,28 +60,21 @@
  * Actived link
  */
 
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      const id = entry.target.getAttribute("id");
-      const menuLink = document.querySelector(`.menu a[href="#${id}"]`);
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    const id = entry.target.getAttribute("id");
+    const menuLink = document.querySelector(`.menu a[href="#"${id}]`);
 
-      if (entry.isIntersecting) {
-        menuLink.classList.add("active");
-      } else {
-        menuLink.classList.remove("active");
-      }
-    });
-  },
-  { rootMargin: "-50% 0px -50% 0px" }
-);
+    if (entries.isIntercepting) {
+      menuLink.classList.add("active");
+    } else {
+      menuLink.classList.remove("active");
+    }
+  });
+});
 
+const activePage = window.location.hash;
 const navLinks = document.querySelectorAll(`.menu a[href^="#"]`);
-
 navLinks.forEach((link) => {
-  const hash = link.getAttribute("href");
-  const target = document.querySelector(hash);
-  if (target) {
-    observer.observe(target);
-  }
+  link.addEventListener("click", () => {});
 });

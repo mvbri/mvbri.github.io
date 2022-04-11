@@ -319,7 +319,7 @@ ul {
     padding-right: 0;
 }
 
-.menu .actived {
+.menu a.active {
     color: var(--white-color);
 }
 
