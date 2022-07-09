@@ -6,7 +6,7 @@
     --first-green: #5CBC34;
     --first-pink: var(--first-color);
     --first-yellow: #FEDE37;
-    --first-blue: #2EA2E7;
+    --first-blue: blue;
     --second-color: #14192d;
     --second-alpha-color: rgba(20, 25, 45, 0.75);
     --third-color: #501464;
@@ -432,12 +432,12 @@ section[id] {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    border-top: 1px solid #d9006236;
     padding: 1rem;
 }
 
 .progress > p {
     font-size: 1rem;
-    font-weight: 500;
     color: #14192d;
     line-height: normal;
     margin-left: .5rem;
@@ -466,18 +466,6 @@ section[id] {
 
 .first-blue {
     fill: var(--first-blue)
-}
-
-.bb-1 {
-    border-bottom: 1px solid var(--first-color); 
-}
-
-.pb-1 {
-    padding-bottom: .5rem;
-}
-
-.pb-2 {
-    padding-bottom: 1rem;
 }
 
 /* utilities */

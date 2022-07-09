@@ -2,11 +2,9 @@
 :root {
     --first-color: #d90062;
     --first-alpha-color: rgba(217, 0, 98, 0.75);
-    --first-orange: #EF762B;
-    --first-green: #5CBC34;
+    --first-orange: orange;
+    --first-green: green;
     --first-pink: var(--first-color);
-    --first-yellow: #FEDE37;
-    --first-blue: #2EA2E7;
     --second-color: #14192d;
     --second-alpha-color: rgba(20, 25, 45, 0.75);
     --third-color: #501464;
@@ -91,7 +89,7 @@ img {
 
 p {
     line-height: 1.6;
-    /* margin: 1rem 0; */
+    margin: 1rem 0;
 }
 
 ul {
@@ -432,15 +430,13 @@ section[id] {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding: 1rem;
+    border-top: 1px solid #d9006236;
 }
 
 .progress > p {
     font-size: 1rem;
-    font-weight: 500;
     color: #14192d;
-    line-height: normal;
-    margin-left: .5rem;
+    padding: 1em;
 }
 
 .progress svg {
@@ -458,26 +454,6 @@ section[id] {
 
 .first-pink {
     fill: var(--first-pink);
-}
-
-.first-yellow {
-    fill: var(--first-yellow);
-}
-
-.first-blue {
-    fill: var(--first-blue)
-}
-
-.bb-1 {
-    border-bottom: 1px solid var(--first-color); 
-}
-
-.pb-1 {
-    padding-bottom: .5rem;
-}
-
-.pb-2 {
-    padding-bottom: 1rem;
 }
 
 /* utilities */
