@@ -299,6 +299,13 @@ section[id] {
     color: var(--gray-light-color);
     font-size: var(--s-size);
     line-height: 1.1;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 26ch;
+    overflow: hidden;
+
+    animation: typing 2s steps(26), blink .5s infinite step-end alternate;
 }
 
 @keyframes typing {
@@ -391,13 +398,6 @@ section[id] {
 
     .hero-img-title {
         font-size: var(--m-size);
-        display: block;
-        white-space: nowrap;
-        border-right: 4px solid;
-        width: 26ch;
-        overflow: hidden;
-    
-        animation: typing 2s steps(26), blink .5s infinite step-end alternate;
     }
 }
 
