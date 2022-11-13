@@ -390,7 +390,7 @@ section[id] {
     }
 
     .hero-img-title {
-        font-size: var(--m-size);
+        font-size: var(--lg-size);
         display: block;
         white-space: nowrap;
         border-right: 4px solid;
@@ -400,13 +400,6 @@ section[id] {
         animation: typing 2s steps(26), blink .5s infinite step-end alternate;
     }
 }
-
-@media screen and (min-width: 1200px) {
-    .hero-img-title {
-        font-size: var(--lg-size);
-    }
-}
-
 
 /* Modal */
 

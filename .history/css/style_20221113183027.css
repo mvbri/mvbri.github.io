@@ -401,13 +401,6 @@ section[id] {
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .hero-img-title {
-        font-size: var(--lg-size);
-    }
-}
-
-
 /* Modal */
 
 .modal {
