@@ -89,9 +89,9 @@ navLinks.forEach((link) => {
 /* Animación de titulo del banner - Efecto maquina de escribir. */
 const heroTitle = document.querySelector('.hero-img-title');
 
-const typewriter = (text, time = 200, etiqueta) => {
+const typewriter = (text, time = 200, element) => {
 	let lettersArray = text.split('');
-	heroTitle.innerHTML = '';
+	element.innerHTML = '';
 	let count = 0;
 
 	const writing = setInterval(() => {
