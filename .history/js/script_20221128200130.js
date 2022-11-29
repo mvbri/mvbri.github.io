@@ -101,4 +101,4 @@ const typewriter = (text, time = 200, etiqueta) => {
 	}, time);
 };
 
-typewriter('Bienvenidos a mi sitio web', 110, heroTitle);
+typewriter('Bienvenidos a mi sitio web', 150, heroTitle);

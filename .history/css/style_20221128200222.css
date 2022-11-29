@@ -323,8 +323,6 @@ section[id] {
     font-size: var(--s-size);
     line-height: 1.1;
     padding: 1rem;
-    transition: border-right ease;
-    animation: blink .5s infinite step-end alternate; 
 }
 
 @keyframes typing {
@@ -421,6 +419,9 @@ section[id] {
         white-space: nowrap;
         border-right: 4px solid;
         overflow: hidden;
+        transition: border-right ease;
+    
+        animation: blink .5s infinite step-end alternate; 
     }
 }
 

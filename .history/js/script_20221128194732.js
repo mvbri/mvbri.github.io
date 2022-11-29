@@ -86,19 +86,4 @@ navLinks.forEach((link) => {
 	}
 });
 
-/* Animación de titulo del banner - Efecto maquina de escribir. */
-const heroTitle = document.querySelector('.hero-img-title');
-
-const typewriter = (text, time = 200, etiqueta) => {
-	let lettersArray = text.split('');
-	heroTitle.innerHTML = '';
-	let count = 0;
-
-	const writing = setInterval(() => {
-		heroTitle.innerHTML += lettersArray[count];
-		count++;
-		if (count == text.length) clearInterval(writing);
-	}, time);
-};
-
-typewriter('Bienvenidos a mi sitio web', 110, heroTitle);
+/* Animación de titulodel banner - Efecto maquina de escribir. */

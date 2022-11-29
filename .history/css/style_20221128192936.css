@@ -20,10 +20,10 @@
     --title-color: #333;
     --text-color: #222;
     --white-alpha-color: rgba(255, 255, 255, .5);
-    --black-alpha-color: rgba(0, 0, 0, .2);
+    --black-alpha-color: rgba(0, 0, 0, .5);
     --font: "Work Sans", sans-serif;
     --max-width: 1500px;
-    --header-height: 76px;
+    --header-height: 75px;
     --s-size: 2rem;
     --m-size: 3rem;
     --lg-size: 4rem;
@@ -323,8 +323,6 @@ section[id] {
     font-size: var(--s-size);
     line-height: 1.1;
     padding: 1rem;
-    transition: border-right ease;
-    animation: blink .5s infinite step-end alternate; 
 }
 
 @keyframes typing {
@@ -420,7 +418,10 @@ section[id] {
         display: block;
         white-space: nowrap;
         border-right: 4px solid;
+        width: 26ch;
         overflow: hidden;
+    
+        animation: typing 2s steps(26), blink .5s infinite step-end alternate;
     }
 }
 
@@ -693,7 +694,6 @@ section[id] {
     padding: 1rem;
     height: var(--header-height);
     background: var(--second-color);
-    border-bottom: .5px solid var(--gray-dark-color);
 }
 
 .header > .container {

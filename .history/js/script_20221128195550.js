@@ -95,10 +95,8 @@ const typewriter = (text, time = 200, etiqueta) => {
 	let count = 0;
 
 	const writing = setInterval(() => {
-		heroTitle.innerHTML += lettersArray[count];
+		heroTitle.innerHTML = lettersArray[count];
 		count++;
 		if (count == text.length) clearInterval(writing);
 	}, time);
 };
-
-typewriter('Bienvenidos a mi sitio web', 110, heroTitle);
