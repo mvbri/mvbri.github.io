@@ -68,6 +68,7 @@ const observer = new IntersectionObserver(
 
 			if (entry.isIntersecting) {
 				menuLink.classList.add('active');
+				window.location.hash = id;
 			} else {
 				menuLink.classList.remove('active');
 			}
