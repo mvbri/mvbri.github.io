@@ -693,7 +693,7 @@ section[id] {
     padding: 1rem;
     height: var(--header-height);
     background: var(--second-color);
-    border-bottom: .5px solid var(--title-color);
+    border-bottom: .5px solid var(--gray-dark-color);
 }
 
 .header > .container {
@@ -722,13 +722,12 @@ section[id] {
     left: 0;
     position: absolute;
     background-color: var(--first-pink);
-    transition: width ease;
-    animation: logoLine .7s;
+    animation: logoLine .5s;
 }
 
 @keyframes  logoLine {
     0% {
-        width: 0;
+
     }
 }
 

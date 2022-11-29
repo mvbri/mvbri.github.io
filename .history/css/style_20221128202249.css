@@ -693,7 +693,7 @@ section[id] {
     padding: 1rem;
     height: var(--header-height);
     background: var(--second-color);
-    border-bottom: .5px solid var(--title-color);
+    border-bottom: .5px solid var(--gray-dark-color);
 }
 
 .header > .container {
