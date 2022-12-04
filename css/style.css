@@ -607,7 +607,6 @@ section[id] {
     padding: 0.5rem 1rem;
     text-align: center;
     color: var(--title-color);
-    white-space: nowrap;
 }
 
 .text-first-color {
@@ -870,6 +869,10 @@ section[id] {
 
     .services .section-title {
         grid-column: span 2;
+    }
+
+    .section-title {
+        white-space: nowrap;
     }
 }
 
