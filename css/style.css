@@ -20,7 +20,7 @@
     --title-color: #333;
     --text-color: #222;
     --white-alpha-color: rgba(255, 255, 255, .5);
-    --black-alpha-color: rgba(0, 0, 0, .2);
+    --black-alpha-color: rgba(0, 0, 0, .5);
     --font: "Work Sans", sans-serif;
     --max-width: 1500px;
     --header-height: 76px;
