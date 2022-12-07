@@ -118,6 +118,10 @@ section[id] {
     background-color: var(--gray-light-color);
 }
 
+.title-color {
+    color: var(--title-color);
+}
+
 
 /* components */
 
@@ -588,8 +592,8 @@ section[id] {
     margin-left: auto;
     margin-right: auto;
     max-width: var(--max-width);
+    padding: 10px; 
     padding-top: 3rem;
-    padding: 10px;
 }
 
 .gray-scale {
@@ -607,6 +611,7 @@ section[id] {
     padding: 0.5rem 1rem;
     text-align: center;
     color: var(--title-color);
+    margin-bottom: 3rem;
 }
 
 .text-first-color {
@@ -699,6 +704,8 @@ section[id] {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    /*Evita que se rompa con el pading de la clase container*/
+    padding: 0;
 }
 
 .logo {
@@ -730,18 +737,52 @@ section[id] {
     }
 }
 
+.break-line {
+    display: block;
+}
+
+.section-title {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 0.5rem 1rem;
+    color: var(--title-color);
+    border-top: thin solid var(--first-color);
+    border-bottom: thin solid var(--first-color);
+}
+
+.section-items {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.item-svg {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    fill: var(--first-color);;
+}
+
 .portfolio-card {
     position: relative;
     width: 100%;
     margin: 0 auto;
     display: block;
     max-width: 400px;
-}
-
-.service-card {
-    margin: 1rem auto;
-    padding: 1rem;
-    text-align: center;
 }
 
 .portfolio-card img {
@@ -814,15 +855,6 @@ section[id] {
 
 .portfolio-details b {
     color: var(--first-color);
-}
-
-.service-card h3 {
-    color: var(--title-color);
-}
-
-.service-card svg {
-    margin-bottom: 1.25rem;
-    fill: var(--first-color);
 }
 
 .social-media a {
