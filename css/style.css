@@ -628,6 +628,11 @@ section[id] {
     text-align: right;
 }
 
+.btn-container {
+    display: flex;
+    gap: 1rem;
+}
+
 @media screen and (min-width: 1024px) {
 
     :root {
