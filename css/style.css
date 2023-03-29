@@ -478,7 +478,6 @@ section[id] {
 .progress {
     text-align: center;
     display: flex;
-    justify-content: center;
     align-items: flex-end;
     padding: 1rem;
 }
@@ -586,6 +585,10 @@ section[id] {
     color: var(--white-color);
     background: var(--first-color);
     font-weight: 500;
+}
+
+.btn.font-md {
+    font-size: 14px;
 }
 
 .container {
