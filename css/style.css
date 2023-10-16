@@ -256,6 +256,10 @@ section[id] {
     fill: var(--first-color);
 }
 
+.contact-form-loader > * {
+    width: 32px;
+}
+
 .modal#gracias:target {
     opacity: 1;
     pointer-events: auto;
@@ -633,6 +637,10 @@ section[id] {
 
 .btn-container {
     display: flex;
+    width: 200px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -913,6 +921,11 @@ section[id] {
 
     .section-title {
         white-space: nowrap;
+    }
+
+    .btn-container {
+        flex-direction: row;
+        width: initial;
     }
 }
 
